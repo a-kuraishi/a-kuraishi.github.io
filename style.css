@@ -17,7 +17,7 @@ h2{font-size:1.2rem;margin:2rem 0 .6rem;padding-bottom:.25rem;border-bottom:1px 
 ul{padding-left:1.2rem}
 li{margin-bottom:.6rem}
 
-.profile {  display: flex;  align-items: flex-start;  gap: 1.5rem;}
+.profile {display: flex;  align-items: flex-start;  gap: 1.5rem;}
 .profile .side {width: 220px;  flex-shrink: 0;  max-width: 100%;}
 .profile .side img {width: 100%;height: auto;display: block;border-radius: 6px; background: var(--line);}
 .profile .side p {margin: .6rem 0 0;font-size: .9rem;}
