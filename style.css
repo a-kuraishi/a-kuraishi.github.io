@@ -23,9 +23,3 @@ blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid var(--line);col
 blockquote cite{display:block;margin-top:.3rem;font-style:normal;color:var(--text)}
 .btn{display:inline-block;padding:.6rem 1.1rem;border:1px solid var(--accent);border-radius:4px;text-decoration:none;font-family:system-ui,sans-serif}
 footer{margin:3rem auto 2rem;color:var(--muted);font-size:.85rem;font-family:system-ui,sans-serif}
-
-.book-top{display:grid;grid-template-columns:250px 1fr 1fr;grid-template-rows:auto auto;column-gap:2rem;row-gap:1.5rem;align-items:start;margin:0 0 1.5rem}
-.book-top img{grid-row:1 / span 2;width:100%;display:block}
-.book-top .q p{margin:0 0 .4rem;font-size:1rem}
-.book-top .who{text-align:center;font-size:.85rem}
-@media(max-width:760px){.book-top{grid-template-columns:1fr}.book-top img{grid-row:auto;max-width:250px}}
