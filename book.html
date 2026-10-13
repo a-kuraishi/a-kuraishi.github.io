@@ -6,6 +6,21 @@
 <title>Book</title>
 <meta name="description" content="Anam Kuraishi">
 <link rel="stylesheet" href="style.css">
+<style>
+.book-top{display:grid;grid-template-columns:250px 1fr 1fr;column-gap:2rem;row-gap:1.5rem;align-items:start;margin:0 0 1.5rem}
+.book-top > img{grid-column:1;grid-row:1 / span 2;width:250px;max-width:100%;height:auto;display:block}
+.book-top .q{min-width:0}
+.book-top .q:nth-of-type(1){grid-column:2;grid-row:1}
+.book-top .q:nth-of-type(2){grid-column:3;grid-row:1}
+.book-top .q:nth-of-type(3){grid-column:2;grid-row:2}
+.book-top .q:nth-of-type(4){grid-column:3;grid-row:2}
+.book-top .q p{margin:0 0 .4rem;font-size:1rem}
+.book-top .who{text-align:center;font-size:.85rem}
+@media(max-width:760px){
+.book-top{grid-template-columns:1fr}
+.book-top > img,.book-top .q:nth-of-type(n){grid-column:1;grid-row:auto}
+}
+</style>
 </head>
 <body>
 <header class="site"><div class="wrap">
@@ -15,7 +30,7 @@
 <main class="wrap">
 
 <div class="book-top">
-<img src="Towards%20a%20New%20Paradigm%20on%20Post-truth%202-1.png" alt="Book cover: Towards a New Paradigm on Post-truth">
+<img src="Towards%20a%20New%20Paradigm%20on%20Post-truth%202-1.png" width="250" alt="Book cover: Towards a New Paradigm on Post-truth">
 <div class="q">
 <p><strong>"This groundbreaking work redefines our understanding of post-truth by framing it as a discourse."</strong></p>
 <p class="who">Anna Durnová<br>University of Vienna</p>
