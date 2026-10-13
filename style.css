@@ -19,16 +19,14 @@ h3{font-size:1.05rem;margin:1.2rem 0 .3rem}
 ul{padding-left:1.2rem}
 li{margin-bottom:.6rem}
 
-/* Home page: photo + text (change 300px to resize the photo) */
 .profile{display:flex;gap:2rem;align-items:flex-start;flex-wrap:wrap}
-.profile>img{width:300px;max-width:100%;display:block;border-radius:2px}
-.profile .side{width:300px;max-width:100%}
+.profile>img{width:400px;max-width:100%;display:block;border-radius:2px}
+.profile .side{width:400px;max-width:100%}
 .profile .side img{width:100%;display:block;border-radius:2px}
 .profile .side p{margin:.6rem 0 0;font-size:.9rem;overflow-wrap:anywhere}
 .profile .text{flex:1;min-width:260px}
 .profile .text>p:first-child{margin-top:0}
 
-/* Book page: cover (change 300px to resize) */
 .cover{width:300px;max-width:100%;float:right;margin:.3rem 0 1rem 1.5rem;border-radius:2px}
 @media(max-width:700px){.cover{float:none;display:block;width:240px;margin:0 auto 1rem}}
 
@@ -37,7 +35,6 @@ blockquote cite{display:block;margin-top:.3rem;font-style:normal;font-weight:700
 
 .btn{display:inline-block;padding:.6rem 1.1rem;border:1px solid var(--accent);text-decoration:none}
 
-/* Contact page: space between lines */
 .contact p{margin:0 0 1.5rem}
 
 footer{margin:3rem auto 2rem;color:var(--muted);font-size:.85rem}
