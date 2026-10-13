@@ -1,4 +1,4 @@
-:root{--bg:#fff;--text:#222;--muted:#666;--accent:#1a5fb4;--line:#e3e3e3;--font:Georgia,"Times New Roman",serif}
+:root{--bg:#fff;--text:#222;--muted:#666;--accent:#1a5fb4;--line:#e3e3e3;--font:Cambria,Georgia,serif}
 @media(prefers-color-scheme:dark){:root{--bg:#15171a;--text:#e6e6e6;--muted:#9aa0a6;--accent:#7fb2ff;--line:#2c2f33}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.65}
