@@ -14,7 +14,7 @@ h1{font-size:1.8rem;margin:0 0 1rem}
 h2{font-size:1.2rem;margin:2rem 0 .6rem;padding-bottom:.25rem;border-bottom:1px solid var(--line)}
 ul{padding-left:1.2rem}li{margin-bottom:.6rem}
 .profile{display:flex;gap:1.75rem;align-items:flex-start;flex-wrap:wrap}
-.profile .side{width:340px;max-width:100%}
+.profile .side{width:400px;max-width:100%}
 .profile .side img{width:100%;display:block;border-radius:6px;background:var(--line)}
 .profile .side p{margin:.6rem 0 0;font-size:.9rem;overflow-wrap:anywhere}
 .profile .text{flex:1;min-width:260px}
